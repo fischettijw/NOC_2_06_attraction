@@ -21,7 +21,7 @@ class Attractor {
         // Distance between objects
         let distance = force.mag();
         // Limiting the distance to eliminate "extreme" results for very close or very far objects
-        distance = constrain(distance, 5, 25);
+        distance = constrain(distance, 5, 50);
 
         // Calculate gravitional force magnitude
         let strength = (this.G * this.mass * mover.mass) / (distance * distance);

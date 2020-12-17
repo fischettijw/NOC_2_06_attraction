@@ -29,7 +29,8 @@ class Mover {
     show() {
         stroke(0);
         strokeWeight(2);
-        fill(255, 127);
+        fill(0, 255, 0);
+        // fill(255, 127);
         circle(this.position.x, this.position.y, this.radius);
     }
 }
