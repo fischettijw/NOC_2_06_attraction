@@ -4,8 +4,8 @@ let attractor;
 
 function setup() {
     createCanvas(500, 600);
-    mover = new Mover(150, 150, 5);
-    // mover2 = new Mover(199, 100, 5);
+    mover = new Mover(175, 175, 5);
+    // mover2 = new Mover(200, 100, 5);
     attractor = new Attractor(width / 2, height / 2, 20);
 
     background(220);
